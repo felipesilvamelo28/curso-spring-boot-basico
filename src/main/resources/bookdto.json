@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "edition": {
+      "type": "number",
+      "minimum": 1
+    },
+    "year": {
+      "type": "string",
+      "minLength": 4
+    },
+    "author": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "edition",
+    "year",
+    "author"
+  ]
+}
